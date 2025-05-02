@@ -60,3 +60,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/giaotrinhhoc/ZisRb/re
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Khai456/fullmn/refs/heads/main/fullmn.lua"))()
   end
   })
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "banana hub",
+    Callback = function()
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "OHCHIKfYVmVMdEWeGFUtdwzRGxdmwEWQ"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+  end
+  })
